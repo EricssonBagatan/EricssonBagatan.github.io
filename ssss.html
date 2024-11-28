@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Technology Aesthetics</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #1e1e2f;
+      color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .container {
+      width: 90%;
+      max-width: 1000px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .card {
+      background: #27293d;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+      margin: 20px 0;
+      padding: 20px;
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    }
+    .card h2 {
+      color: #4db8ff;
+      font-size: 1.8em;
+    }
+    .card p {
+      color: #cccccc;
+      font-size: 1.2em;
+      line-height: 1.5em;
+    }
+    .highlight {
+      color: #ff7b54;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h2>“Technology is best when it brings people together.”</h2>
+      <p>- Matt Mullenweg</p>
+    </div>
+
+    <div class="card">
+      <h2>The Pace of Innovation</h2>
+      <p>The world's <span class="highlight">computing power</span> doubles every <span class="highlight">1.5 years</span> thanks to Moore's Law.</p>
+    </div>
+
+    <div class="card">
+      <h2>The Internet's Impact</h2>
+      <p>Every <span class="highlight">60 seconds</span>, more than <span class="highlight">6 million searches</span> are performed on Google. 🚀</p>
+    </div>
+
+    <div class="card">
+      <h2>The Future Awaits</h2>
+      <p>By <span class="highlight">2030</span>, AI is projected to contribute <span class="highlight">$15.7 trillion</span> to the global economy. 🤖</p>
+    </div>
+  </div>
+</body>
+</html>
